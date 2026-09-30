@@ -1,23 +1,1362 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <title>Home</title>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width" />
-    <!--
-      Need a visual blank slate?
-      Remove all code in `styles.css`!
-    -->
-    <link rel="stylesheet" href="styles.css" />
-    <script type="module" src="script.js"></script>
-  </head>
-  <body>
-    <nav>
-      <a href="/" aria-current="page">Home</a>
-      <a href="/page2.html">Other page</a>
-    </nav>
-    <main>
-      <h1>Home page</h1>
-    </main>
-  </body>
-</html>
+
+
+  <!-- JSON-LD Structured Data for AI Agents, Search Snippets & Crawlers -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "LegalService",
+        "@id": "https://legal.reliabledone.com/#organization",
+        "name": "전국 개인회생 변제금 법률 연구센터",
+        "url": "https://legal.reliabledone.com",
+        "logo": "https://legal.reliabledone.com/logo.png",
+        "description": "2026년 및 2027년도 개정 법률 기준 개인회생 변제금 산정 공식, 기준중위소득 공제, 청산가치 보장의 원칙 컨설팅",
+        "telephone": "1588-0000",
+        "areaServed": [
+          "서울", "부산", "대구", "인천", "광주", "대전", "울산", "세종", "수원", "성남",
+          "의정부", "고양", "부천", "용인", "안산", "청주", "천안", "전주", "포항", "창원",
+          "제주", "춘천", "원주", "강릉", "충주", "아산", "군산", "익산", "여수", "순천",
+          "목포", "구미", "경주", "김해"
+        ]
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://legal.reliabledone.com/rehabilitation-guide#webpage",
+        "url": "https://legal.reliabledone.com/rehabilitation-guide",
+        "name": "2026-2027 개인회생 변제금 산정 공식 및 탕감률 비교 분석 가이드",
+        "isPartOf": { "@id": "https://legal.reliabledone.com/#organization" },
+        "inLanguage": "ko-KR",
+        "datePublished": "2026-01-01T09:00:00+09:00",
+        "dateModified": "2026-09-30T10:00:00+09:00",
+        "breadcrumb": {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "홈",
+              "item": "https://legal.reliabledone.com"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "채무조정 제도",
+              "item": "https://legal.reliabledone.com/debt-relief"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "개인회생 변제금 완벽 가이드",
+              "item": "https://legal.reliabledone.com/rehabilitation-guide"
+            }
+          ]
+        }
+      },
+      {
+        "@type": "HowTo",
+        "name": "개인회생 월 변제금 자가 계산 및 최소화 4단계 방법",
+        "description": "월 평균 실소득 산정부터 기준중위소득 60% 차감, 청산가치 비교 및 법원 추가생계비 소명까지의 실전 절차",
+        "step": [
+          {
+            "@type": "HowToStep",
+            "name": "1단계: 월평균 가용소득 산출",
+            "text": "최근 1년간의 근로소득 또는 사업소득에서 4대 보험료와 세금을 공제한 세후 실소득 평균을 계산합니다."
+          },
+          {
+            "@type": "HowToStep",
+            "name": "2단계: 법정 최저생계비 차감",
+            "text": "부양가족 수에 따른 2026년도 및 2027년도 기준중위소득의 60%를 생활유지비로 공제합니다."
+          },
+          {
+            "@type": "HowToStep",
+            "name": "3단계: 청산가치 보장 여부 검증",
+            "text": "총 변제금의 현재가치 합계가 보유 재산의 가치(청산가치)보다 반드시 크도록 변제기간과 월 납입금을 조정합니다."
+          },
+          {
+            "@type": "HowToStep",
+            "name": "4단계: 추가 생계비 소명 및 인가 신청",
+            "text": "주거비 차액, 만성질환 의료비, 양육비 등 객관적 영수증을 첨부하여 법원에 추가 공제를 신청합니다."
+          }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "개인회생 변제금은 어떤 공식으로 결정되나요?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "월 변제금은 월 평균 세후 실소득에서 기준중위소득 60%에 해당하는 최저생계비와 법원이 인정한 추가생계비를 제외한 가용소득 전액으로 결정됩니다. 단, 36개월에서 60개월 동안 납입하는 총 변제액의 현재가치는 본인이 보유한 총 재산가치(청산가치) 이상이어야 합니다."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "소득이 오르면 매달 내는 변제금도 자동으로 증가하나요?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "원칙적으로 고정 변제계획안으로 인가받은 경우 소득이 늘어나도 변제금이 상향되지 않습니다. 다만 최근 이직으로 소득이 현저히 낮아졌거나 주식 코인 사행성 채무 비중이 높은 청년층의 경우 법원이 조건부 인가(매년 소득신고서 제출 의무)를 결정하면 변제금이 인상될 수 있습니다."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "개인회생 변제금을 3회 이상 미납하면 어떻게 되나요?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "변제금 납입이 3회 이상 연체되면 법원은 직권으로 개인회생 절차 폐지 결정을 내릴 수 있습니다. 절차가 폐지되면 채권자들의 강제집행과 독촉이 부활하므로 즉시 미납금을 분납하거나 변제계획안 변경 신청을 해야 합니다."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "주식이나 가상화폐 투자 손실금도 청산가치에 반영되나요?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "서울회생법원, 수원회생법원, 부산회생법원 등 전문 회생법원 준칙에 따르면 이미 잃은 투자 손실금은 청산가치에 산입하지 않는 것이 원칙입니다. 그러나 일부 지방 관할 법원에서는 여전히 대출금으로 투자한 원금 상당액을 재산으로 보아 변제금을 높이라는 보정권고를 내리는 경우가 있으므로 관할 법원 성향을 철저히 분석해야 합니다."
+            }
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+
+  <style>
+    :root {
+      --primary: #1e3a8a;
+      --primary-light: #3b82f6;
+      --primary-dark: #0f172a;
+      --accent: #0f766e;
+      --accent-light: #14b8a6;
+      --accent-soft: #f0fdfa;
+      --bg-base: #f8fafc;
+      --bg-surface: #ffffff;
+      --bg-card: #f1f5f9;
+      --text-main: #1e293b;
+      --text-muted: #475569;
+      --text-sub: #64748b;
+      --border-color: #cbd5e1;
+      --border-subtle: #e2e8f0;
+      --shadow-sm: 0 1px 3px rgba(0,0,0,0.06), 0 1px 2px rgba(0,0,0,0.04);
+      --shadow-md: 0 4px 6px -1px rgba(0,0,0,0.08), 0 2px 4px -2px rgba(0,0,0,0.04);
+      --shadow-lg: 0 10px 15px -3px rgba(0,0,0,0.08), 0 4px 6px -4px rgba(0,0,0,0.03);
+      --radius-sm: 8px;
+      --radius-md: 12px;
+      --radius-lg: 18px;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Pretendard", "Noto Sans KR", "Malgun Gothic", sans-serif;
+      background-color: var(--bg-base);
+      color: var(--text-main);
+      line-height: 1.85;
+      font-size: 1.05rem;
+      letter-spacing: -0.015em;
+      word-break: keep-all;
+    }
+
+    header {
+      background: linear-gradient(135deg, #0f172a 0%, #1e3a8a 60%, #0f766e 100%);
+      color: #ffffff;
+      padding: 4.5rem 1.5rem 3.5rem;
+      text-align: center;
+      box-shadow: var(--shadow-lg);
+      position: relative;
+    }
+
+    header .header-badge {
+      display: inline-block;
+      background-color: rgba(255, 255, 255, 0.15);
+      border: 1px solid rgba(255, 255, 255, 0.25);
+      color: #e0f2fe;
+      padding: 6px 18px;
+      border-radius: 9999px;
+      font-size: 0.9rem;
+      font-weight: 600;
+      margin-bottom: 1.25rem;
+    }
+
+    header h1 {
+      font-size: 2.6rem;
+      font-weight: 800;
+      line-height: 1.35;
+      max-width: 960px;
+      margin: 0 auto 1.25rem;
+      letter-spacing: -0.03em;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      color: #cbd5e1;
+      max-width: 780px;
+      margin: 0 auto 2.25rem;
+      line-height: 1.6;
+    }
+
+    nav.quick-nav {
+      background-color: var(--bg-surface);
+      border-bottom: 1px solid var(--border-subtle);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      box-shadow: var(--shadow-sm);
+    }
+
+    nav.quick-nav ul {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      list-style: none;
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0.75rem 1rem;
+      gap: 0.75rem 1.5rem;
+    }
+
+    nav.quick-nav a {
+      color: var(--text-muted);
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 0.98rem;
+      padding: 6px 12px;
+      border-radius: var(--radius-sm);
+      transition: all 0.2s ease;
+    }
+
+    nav.quick-nav a:hover,
+    nav.quick-nav a:focus {
+      color: var(--primary);
+      background-color: #eff6ff;
+    }
+
+    main {
+      max-width: 1100px;
+      margin: 3.5rem auto;
+      padding: 0 1.5rem;
+    }
+
+    article {
+      background-color: var(--bg-surface);
+      border-radius: var(--radius-lg);
+      padding: 3.5rem;
+      box-shadow: var(--shadow-md);
+      border: 1px solid var(--border-subtle);
+    }
+
+    section {
+      margin-bottom: 4.5rem;
+      padding-bottom: 3.5rem;
+      border-bottom: 1px solid var(--border-subtle);
+    }
+
+    section:last-of-type {
+      border-bottom: none;
+      margin-bottom: 2rem;
+      padding-bottom: 0;
+    }
+
+    h2 {
+      font-size: 1.95rem;
+      font-weight: 800;
+      color: var(--primary-dark);
+      letter-spacing: -0.025em;
+      margin-bottom: 1.5rem;
+      position: relative;
+      padding-bottom: 0.75rem;
+      border-bottom: 2px solid #e2e8f0;
+    }
+
+    h2::after {
+      content: "";
+      position: absolute;
+      bottom: -2px;
+      left: 0;
+      width: 60px;
+      height: 2px;
+      background-color: var(--accent);
+    }
+
+    h3 {
+      font-size: 1.45rem;
+      font-weight: 700;
+      color: var(--primary);
+      margin-top: 2.25rem;
+      margin-bottom: 1rem;
+      line-height: 1.4;
+    }
+
+    h4 {
+      font-size: 1.18rem;
+      font-weight: 700;
+      color: var(--text-main);
+      margin-top: 1.75rem;
+      margin-bottom: 0.75rem;
+    }
+
+    p {
+      margin-bottom: 1.45rem;
+      color: var(--text-main);
+      text-align: justify;
+    }
+
+    p strong {
+      color: #0f172a;
+      font-weight: 700;
+    }
+
+    ul, ol {
+      margin: 1.25rem 0 1.75rem 1.75rem;
+      color: var(--text-main);
+    }
+
+    li {
+      margin-bottom: 0.65rem;
+      padding-left: 0.25rem;
+    }
+
+    .highlight-card {
+      background: linear-gradient(to right bottom, #f8fafc, #f1f5f9);
+      border-left: 5px solid var(--primary-light);
+      padding: 1.75rem 2rem;
+      border-radius: 0 var(--radius-md) var(--radius-md) 0;
+      margin: 2rem 0;
+      border-top: 1px solid var(--border-subtle);
+      border-right: 1px solid var(--border-subtle);
+      border-bottom: 1px solid var(--border-subtle);
+    }
+
+    .accent-card {
+      background-color: var(--accent-soft);
+      border-left: 5px solid var(--accent);
+      padding: 1.75rem 2rem;
+      border-radius: 0 var(--radius-md) var(--radius-md) 0;
+      margin: 2rem 0;
+      border-top: 1px solid #ccfbf1;
+      border-right: 1px solid #ccfbf1;
+      border-bottom: 1px solid #ccfbf1;
+    }
+
+    .table-container {
+      width: 100%;
+      overflow-x: auto;
+      margin: 2.25rem 0;
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius-md);
+      box-shadow: var(--shadow-sm);
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      text-align: left;
+      font-size: 0.98rem;
+      background-color: #ffffff;
+      min-width: 620px;
+    }
+
+    thead th {
+      background-color: #f1f5f9;
+      color: #1e293b;
+      font-weight: 700;
+      padding: 1rem 1.2rem;
+      border-bottom: 2px solid var(--border-color);
+      white-space: nowrap;
+    }
+
+    tbody td {
+      padding: 1rem 1.2rem;
+      border-bottom: 1px solid var(--border-subtle);
+      color: var(--text-main);
+    }
+
+    tbody tr:last-child td {
+      border-bottom: none;
+    }
+
+    tbody tr:hover {
+      background-color: #f8fafc;
+    }
+
+    .calculator-box {
+      background: #ffffff;
+      border: 2px solid #93c5fd;
+      border-radius: var(--radius-lg);
+      padding: 2.25rem;
+      margin: 2.5rem 0;
+      box-shadow: var(--shadow-md);
+    }
+
+    .calc-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 1.25rem;
+      margin-bottom: 1.5rem;
+    }
+
+    .calc-item {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .calc-item label {
+      font-weight: 700;
+      font-size: 0.95rem;
+      margin-bottom: 0.5rem;
+      color: var(--primary-dark);
+    }
+
+    .calc-item input,
+    .calc-item select {
+      padding: 0.85rem 1rem;
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius-sm);
+      font-size: 1rem;
+      background-color: #f8fafc;
+      color: #0f172a;
+      outline: none;
+      transition: border-color 0.2s;
+    }
+
+    .calc-item input:focus,
+    .calc-item select:focus {
+      border-color: var(--primary-light);
+      background-color: #ffffff;
+    }
+
+    .calc-btn-wrap {
+      text-align: center;
+      margin-top: 1rem;
+    }
+
+    .calc-trigger-btn {
+      background-color: var(--primary);
+      color: #ffffff;
+      font-weight: 700;
+      font-size: 1.1rem;
+      padding: 0.95rem 2.5rem;
+      border: none;
+      border-radius: 9999px;
+      cursor: pointer;
+      box-shadow: 0 4px 12px rgba(30, 58, 138, 0.25);
+      transition: all 0.2s ease;
+    }
+
+    .calc-trigger-btn:hover {
+      background-color: #1d4ed8;
+      transform: translateY(-2px);
+    }
+
+    .calc-result-panel {
+      margin-top: 1.75rem;
+      padding: 1.5rem;
+      background-color: #f0fdf4;
+      border: 1px solid #bbf7d0;
+      border-radius: var(--radius-md);
+      display: none;
+    }
+
+    .calc-result-panel.active {
+      display: block;
+    }
+
+    .result-metric {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0.6rem 0;
+      border-bottom: 1px dashed #86efac;
+      font-size: 1.02rem;
+    }
+
+    .result-metric:last-child {
+      border-bottom: none;
+      margin-top: 0.5rem;
+      padding-top: 0.8rem;
+      font-size: 1.15rem;
+      font-weight: 800;
+      color: #166534;
+    }
+
+    .city-badge-grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      margin: 1.5rem 0 2rem;
+    }
+
+    .city-badge {
+      background-color: #f1f5f9;
+      color: #334155;
+      font-size: 0.88rem;
+      font-weight: 600;
+      padding: 5px 12px;
+      border-radius: var(--radius-sm);
+      border: 1px solid #e2e8f0;
+      transition: all 0.2s;
+    }
+
+    .city-badge:hover {
+      background-color: #e0f2fe;
+      color: var(--primary);
+      border-color: #bae6fd;
+    }
+
+    dl.accordion-faq {
+      margin-top: 2rem;
+    }
+
+    dl.accordion-faq dt {
+      background-color: #f8fafc;
+      border: 1px solid var(--border-subtle);
+      border-radius: var(--radius-md);
+      padding: 1.25rem 1.5rem;
+      margin-top: 1rem;
+      font-size: 1.12rem;
+      font-weight: 700;
+      color: var(--primary-dark);
+      cursor: pointer;
+      position: relative;
+      transition: background-color 0.2s ease;
+    }
+
+    dl.accordion-faq dt:hover {
+      background-color: #f1f5f9;
+    }
+
+    dl.accordion-faq dd {
+      background-color: #ffffff;
+      border: 1px solid var(--border-subtle);
+      border-top: none;
+      border-radius: 0 0 var(--radius-md) var(--radius-md);
+      padding: 1.5rem;
+      margin-bottom: 1.25rem;
+      color: var(--text-main);
+      display: none;
+      line-height: 1.8;
+    }
+
+    dl.accordion-faq dt.active {
+      border-radius: var(--radius-md) var(--radius-md) 0 0;
+      background-color: #eff6ff;
+      border-color: #bfdbfe;
+      color: var(--primary);
+    }
+
+    dl.accordion-faq dt.active + dd {
+      display: block;
+      border-color: #bfdbfe;
+    }
+
+    .official-links-block {
+      background-color: #f8fafc;
+      border: 1px solid #e2e8f0;
+      border-radius: var(--radius-lg);
+      padding: 2.25rem;
+      margin-top: 3rem;
+    }
+
+    .official-link-item {
+      display: block;
+      padding: 1.2rem;
+      background-color: #ffffff;
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius-md);
+      text-decoration: none;
+      margin-bottom: 1rem;
+      transition: all 0.2s ease;
+    }
+
+    .official-link-item:hover {
+      border-color: var(--primary-light);
+      box-shadow: var(--shadow-sm);
+      transform: translateY(-2px);
+    }
+
+    .official-link-title {
+      font-size: 1.08rem;
+      font-weight: 700;
+      color: var(--primary);
+      margin-bottom: 0.35rem;
+    }
+
+    .official-link-desc {
+      font-size: 0.92rem;
+      color: var(--text-muted);
+      line-height: 1.5;
+    }
+
+    .consult-card {
+      background: linear-gradient(135deg, #0f172a 0%, #1e3a8a 100%);
+      color: #ffffff;
+      border-radius: var(--radius-lg);
+      padding: 3rem 2.5rem;
+      text-align: center;
+      margin-top: 4rem;
+      box-shadow: var(--shadow-lg);
+    }
+
+    .consult-card h2 {
+      color: #ffffff;
+      border: none;
+      padding: 0;
+      margin-bottom: 1rem;
+    }
+
+    .consult-card h2::after {
+      display: none;
+    }
+
+    .consult-card p {
+      color: #e2e8f0;
+      text-align: center;
+      max-width: 720px;
+      margin: 0 auto 2rem;
+      font-size: 1.08rem;
+    }
+
+    .consult-form {
+      max-width: 680px;
+      margin: 0 auto;
+      background: rgba(255, 255, 255, 0.08);
+      padding: 2rem;
+      border-radius: var(--radius-md);
+      border: 1px solid rgba(255, 255, 255, 0.15);
+      text-align: left;
+    }
+
+    .form-group-row {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1rem;
+      margin-bottom: 1rem;
+    }
+
+    .form-ctrl {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .form-ctrl label {
+      font-size: 0.9rem;
+      font-weight: 600;
+      margin-bottom: 0.4rem;
+      color: #cbd5e1;
+    }
+
+    .form-ctrl input,
+    .form-ctrl select,
+    .form-ctrl textarea {
+      padding: 0.8rem;
+      border-radius: var(--radius-sm);
+      border: 1px solid #475569;
+      background-color: #0f172a;
+      color: #ffffff;
+      font-size: 0.95rem;
+    }
+
+    .form-ctrl input:focus,
+    .form-ctrl select:focus,
+    .form-ctrl textarea:focus {
+      outline: none;
+      border-color: #60a5fa;
+    }
+
+    .submit-consult-btn {
+      width: 100%;
+      background-color: var(--accent-light);
+      color: #042f2e;
+      font-weight: 800;
+      font-size: 1.15rem;
+      padding: 1rem;
+      border: none;
+      border-radius: var(--radius-sm);
+      cursor: pointer;
+      margin-top: 1rem;
+      transition: background-color 0.2s;
+    }
+
+    .submit-consult-btn:hover {
+      background-color: #2dd4bf;
+    }
+
+    footer {
+      background-color: #0f172a;
+      color: #94a3b8;
+      padding: 3.5rem 1.5rem;
+      text-align: center;
+      font-size: 0.92rem;
+      line-height: 1.8;
+      border-top: 1px solid #1e293b;
+    }
+
+    footer a {
+      color: #cbd5e1;
+      text-decoration: underline;
+    }
+
+    @media (max-width: 820px) {
+      header h1 {
+        font-size: 1.95rem;
+      }
+      article {
+        padding: 1.75rem 1.25rem;
+      }
+      .form-group-row {
+        grid-template-columns: 1fr;
+      }
+      h2 {
+        font-size: 1.55rem;
+      }
+      h3 {
+        font-size: 1.25rem;
+      }
+      nav.quick-nav ul {
+        gap: 0.5rem 0.75rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="header-badge">2026-2027 법무부 및 대법원 회생실무준칙 반영 공시</div>
+    <h1>개인회생 변제금 산정 공식과 최저생계비 기준 총정리</h1>
+    <p>채무 탕감률을 결정짓는 핵심 지표인 월 가용소득 계산, 전국 회생법원별 추가생계비 인정 기준 및 실전 감면 노하우</p>
+  </header>
+
+  <nav class="quick-nav" aria-label="문서 주요 목차 바로가기">
+    <ul>
+      <li><a href="#section-concept">변제금 산정 기본 원칙</a></li>
+      <li><a href="#section-livelihood">최저생계비 기준표</a></li>
+      <li><a href="#section-calculator">모의 변제금 계산기</a></li>
+      <li><a href="#section-liquidation">청산가치 보장 원칙</a></li>
+      <li><a href="#section-reduction">변제금 줄이는 핵심 비법</a></li>
+      <li><a href="#section-regional">전국 30개 법원별 성향</a></li>
+      <li><a href="#section-community">커뮤니티 후기 및 주의점</a></li>
+      <li><a href="#section-faq">자주 묻는 질문(FAQ)</a></li>
+      <li><a href="#section-official">공식 출처 안내</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <article>
+      <!-- 제1장: 개인회생 변제금의 기본 개념과 3대 대원칙 -->
+      <section id="section-concept">
+        <h2>1. 개인회생 변제금이란 무엇이며 어떻게 결정되는가?</h2>
+        <p>
+          개인회생 제도에서 매월 법원에 납입하는 <strong>개인회생 변제금</strong>은 채무자가 감당할 수 없는 빚을 졌을 때 법원의 공권력을 통해 강제적으로 조정받는 <strong>월 상환 금액</strong>을 의미합니다. 많은 분들이 채무 총액의 몇 퍼센트를 갚아야 하는지 단순 비율로 생각하지만, 실제 법정 산정 방식은 전혀 다릅니다. 대한민국 통합도산법(채무자 회생 및 파산에 관한 법률) 제614조에 명시된 원칙에 따라, 변제금은 채무자의 <strong>월평균 순소득</strong>에서 법정 <strong>최저생계비</strong>와 인정된 <strong>추가생계비</strong>를 차감한 <strong>월 가용소득(Disposable Income)</strong> 전액으로 결정됩니다.
+        </p>
+        <p>
+          따라서 총 채무액이 5천만 원이든, 2억 원이든 상관없이 채무자의 소득 수준과 부양가족 수, 재산 규모에 따라 매월 납입해야 하는 금액이 완전히 달라집니다. 어떤 분은 월 25만 원씩 36개월간 총 900만 원만 갚고 나머지 수억 원의 원금과 이자를 전액 면책받기도 하며, 반대로 소득이 높거나 보유 재산이 많은 분은 매달 180만 원 이상의 높은 변제금을 납부해야 할 수도 있습니다. 결국 개인회생의 성패는 본인에게 책정되는 <strong>월 변제금</strong>을 법이 허용하는 한도 내에서 얼마나 낮출 수 있느냐에 달려 있습니다.
+        </p>
+
+        <div class="highlight-card">
+          <h4>개인회생 변제금 산정의 3대 핵심 원칙</h4>
+          <ul>
+            <li><strong>가용소득 제공의 원칙:</strong> 채무자는 변제기간 동안 인간다운 생활을 유지하기 위한 법정 최저생계비를 제외한 나머지 모든 가용소득을 채권자들에게 공평하게 변제해야 합니다.</li>
+            <li><strong>청산가치 보장의 원칙:</strong> 36개월에서 60개월 동안 납입하는 총 변제금의 현재가치(라이프니츠 수치 할인 적용)가 현재 보유하고 있는 총 재산(청산가치)보다 반드시 많아야 합니다.</li>
+            <li><strong>지급불능 및 최저변제액 충족 원칙:</strong> 원금의 일부를 변제하되, 채무액 규모에 따른 법정 최저변제액 규정 및 공정 배분 기준을 준수해야 인가 결정이 내려집니다.</li>
+          </ul>
+        </div>
+
+        <p>
+          변제기간은 통상 <strong>36개월(3년)</strong>이 기본 원칙입니다. 다만 청년층(만 30세 미만 또는 만 34세 이하 청년), 다자녀 가정, 고령자, 중증 장애인 등 취약계층의 경우 서울회생법원, 수원회생법원, 부산회생법원 실무준칙에 의거하여 <strong>24개월에서 30개월</strong>까지 단축 적용되는 특례를 받을 수 있습니다. 반면 보유 재산이 많아 36개월 동안의 소득 합계만으로 청산가치를 넘어서지 못할 경우에는 예외적으로 <strong>48개월에서 최대 60개월</strong>까지 변제기간이 연장됩니다.
+        </p>
+      </section>
+
+      <!-- 제2장: 2026-2027 최저생계비 공제 기준표 -->
+      <section id="section-livelihood">
+        <h2>2. 2026년도 및 2027년도 기준중위소득과 가구원수별 최저생계비 공제 기준표</h2>
+        <p>
+          개인회생 절차에서 변제금을 산출할 때 소득에서 가장 먼저 공제하는 항목이 바로 <strong>법정 최저생계비</strong>입니다. 법원은 국민기초생활보장법에 따라 보건복지부 중앙생활보장위원회에서 매년 고시하는 <strong>기준중위소득의 60%</strong>를 개인회생 신청인의 1인당 표준 최저생계비로 인정합니다. 2026년도와 2027년도 물가상승률 및 경제 성장 전망치가 반영된 가구원수별 기준중위소득과 생계비 공제 예상표는 다음과 같습니다.
+        </p>
+
+        <div class="table-container">
+          <table>
+            <thead>
+              <tr>
+                <th>가구원 수</th>
+                <th>2025년 기준중위소득</th>
+                <th>2026년 최저생계비 (60%)</th>
+                <th>2027년 최저생계비 (예상)</th>
+                <th>부양가족 인정 주요 요건</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><strong>1인 가구</strong></td>
+                <td>2,392,013원</td>
+                <td><strong>1,496,200원</strong></td>
+                <td>1,548,000원</td>
+                <td>신청인 본인 단독 생계 유지 기준</td>
+              </tr>
+              <tr>
+                <td><strong>2인 가구</strong></td>
+                <td>3,932,658원</td>
+                <td><strong>2,459,800원</strong></td>
+                <td>2,545,000원</td>
+                <td>만 19세 미만 자녀 1인 또는 만 65세 이상 무소득 부모</td>
+              </tr>
+              <tr>
+                <td><strong>3인 가구</strong></td>
+                <td>5,025,353원</td>
+                <td><strong>3,143,300원</strong></td>
+                <td>3,253,000원</td>
+                <td>미성년 자녀 2인 또는 배우자 무소득 및 미성년 자녀 1인</td>
+              </tr>
+              <tr>
+                <td><strong>4인 가구</strong></td>
+                <td>6,097,773원</td>
+                <td><strong>3,814,100원</strong></td>
+                <td>3,947,000원</td>
+                <td>배우자 소득활동 불가 및 미성년 자녀 2인 이상 입증</td>
+              </tr>
+              <tr>
+                <td><strong>5인 가구</strong></td>
+                <td>7,109,245원</td>
+                <td><strong>4,446,800원</strong></td>
+                <td>4,602,000원</td>
+                <td>다자녀 가정 또는 조손 가정 부양 입증 서류 필수</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <p>
+          여기서 가장 중요한 쟁점은 <strong>부양가족의 인정 범위</strong>입니다. 성인인 배우자는 경제활동 능력이 있는 것으로 추정되므로 원칙적으로 부양가족에서 제외됩니다. 다만 중증 질환, 임신 또는 영유아 양육으로 인하여 실질적인 경제활동이 불가능함을 진단서와 가족관계증명서 등으로 입증할 경우 예외적으로 부양가족에 산입될 수 있습니다. 부양가족이 1명 늘어날 때마다 매달 공제받는 최저생계비가 약 90만 원에서 100만 원 가까이 대폭 증가하므로, 변제금을 낮추기 위해서는 부양가족 소명 자료를 빈틈없이 갖추는 것이 필수적입니다.
+        </p>
+      </section>
+
+      <!-- 제3장: 모의 변제금 계산기 UI 및 시뮬레이션 -->
+      <section id="section-calculator">
+        <h2>3. 개인회생 변제금 모의 계산기 및 소득구간별 탕감률 비교</h2>
+        <p>
+          아래의 <strong>변제금 계산기</strong>를 통해 본인의 세후 월평균 소득과 부양가족 수, 채무 총액 및 재산 평가액을 입력하여 매월 납부해야 할 <strong>예상 변제금</strong>과 <strong>총 탕감 금액</strong>을 즉시 산출해 볼 수 있습니다. 최신 회생법원 심사 산식을 적용하여 가용소득과 청산가치를 동시에 검토합니다.
+        </p>
+
+        <div class="calculator-box">
+          <div class="calc-grid">
+            <div class="calc-item">
+              <label for="monthly-income">월평균 세후 실수령액 (원)</label>
+              <input type="number" id="monthly-income" placeholder="예: 2800000" value="2800000">
+            </div>
+            <div class="calc-item">
+              <label for="dependents-count">부양가족 수 (신청인 포함)</label>
+              <select id="dependents-count">
+                <option value="1">1인 가구 (본인만 해당)</option>
+                <option value="2" selected>2인 가구 (본인 + 미성년 자녀 1명 등)</option>
+                <option value="3">3인 가구 (본인 + 부양 2명)</option>
+                <option value="4">4인 가구 (본인 + 부양 3명)</option>
+              </select>
+            </div>
+            <div class="calc-item">
+              <label for="total-debt">총 채무 원금 및 이자 합계 (원)</label>
+              <input type="number" id="total-debt" placeholder="예: 85000000" value="85000000">
+            </div>
+            <div class="calc-item">
+              <label for="total-assets">총 순재산 평가액 (청산가치, 원)</label>
+              <input type="number" id="total-assets" placeholder="예: 15000000" value="15000000">
+            </div>
+          </div>
+          <div class="calc-btn-wrap">
+            <button type="button" class="calc-trigger-btn" id="calc-run-btn">월 예상 변제금 계산하기</button>
+          </div>
+
+          <div class="calc-result-panel" id="calc-result-box">
+            <div class="result-metric">
+              <span>적용 최저생계비 (2026 기준):</span>
+              <strong id="res-living-cost">2,459,800 원</strong>
+            </div>
+            <div class="result-metric">
+              <span>월 가용소득 (월 변제금):</span>
+              <strong id="res-monthly-pay">340,200 원</strong>
+            </div>
+            <div class="result-metric">
+              <span>총 변제 개월 수:</span>
+              <strong id="res-months">36 개월</strong>
+            </div>
+            <div class="result-metric">
+              <span>36개월 총 변제 금액:</span>
+              <strong id="res-total-pay">12,247,200 원</strong>
+            </div>
+            <div class="result-metric">
+              <span>최종 예상 원금 탕감률:</span>
+              <strong id="res-discount-rate">약 85.6% 감면</strong>
+            </div>
+          </div>
+        </div>
+
+        <h3>소득 및 채무 규모별 변제금 및 감면율 요금표 가이드</h3>
+        <p>
+          채무자의 소득 구간과 채무액에 따라 실제 인가되는 <strong>평균 변제 금액</strong>과 <strong>총 변제비율</strong>은 큰 차이를 보입니다. 아래 표는 1인 가구 기준으로 산정한 대표적인 시뮬레이션 결과표입니다.
+        </p>
+
+        <div class="table-container">
+          <table>
+            <thead>
+              <tr>
+                <th>총 채무액</th>
+                <th>월 세후 소득</th>
+                <th>공제 생계비</th>
+                <th>월 변제금</th>
+                <th>36개월 총 상환액</th>
+                <th>예상 탕감률</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>40,000,000원</td>
+                <td>2,000,000원</td>
+                <td>1,496,200원</td>
+                <td>503,800원</td>
+                <td>18,136,800원</td>
+                <td>약 54.7%</td>
+              </tr>
+              <tr>
+                <td>70,000,000원</td>
+                <td>2,200,000원</td>
+                <td>1,496,200원</td>
+                <td>703,800원</td>
+                <td>25,336,800원</td>
+                <td>약 63.8%</td>
+              </tr>
+              <tr>
+                <td>100,000,000원</td>
+                <td>2,500,000원</td>
+                <td>1,496,200원</td>
+                <td>1,003,800원</td>
+                <td>36,136,800원</td>
+                <td>약 63.9%</td>
+              </tr>
+              <tr>
+                <td>150,000,000원</td>
+                <td>2,300,000원</td>
+                <td>1,496,200원</td>
+                <td>803,800원</td>
+                <td>28,936,800원</td>
+                <td>약 80.7%</td>
+              </tr>
+              <tr>
+                <td>250,000,000원</td>
+                <td>2,600,000원</td>
+                <td>1,496,200원</td>
+                <td>1,103,800원</td>
+                <td>39,736,800원</td>
+                <td>약 84.1%</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <!-- 제4장: 청산가치 보장의 원칙과 재산 평가 -->
+      <section id="section-liquidation">
+        <h2>4. 청산가치 보장의 원칙: 재산이 변제금을 올리는 구조적 원리</h2>
+        <p>
+          개인회생을 준비할 때 많은 신청인들이 소득에만 집중하다가 <strong>청산가치 보장의 원칙</strong>이라는 복병을 만나 예상치 못한 변제금 폭탄을 맞곤 합니다. 청산가치란 만약 채무자가 지금 당장 파산하여 전 재산을 현금화했을 때 채권자들에게 나누어줄 수 있는 순재산의 가치를 의미합니다. 회생법원에서는 채무자가 개인회생을 통해 분할 변제하는 총금액의 현재가치가 이 청산가치보다 단 1원이라도 많아야 인가를 허가합니다.
+        </p>
+
+        <div class="accent-card">
+          <h4>청산가치에 반영되는 대표적인 재산 항목</h4>
+          <ul>
+            <li><strong>부동산(아파트, 빌라, 토지):</strong> 시세(KB부동산 시세 또는 국토교통부 실거래가)에서 근저당권 설정액과 주택임대차보호법상 최우선변제 소액임차보증금을 공제한 잔여 지분 가액.</li>
+            <li><strong>임차보증금(전월세 보증금):</strong> 관할 지역별 소액임차보증금 압류금지 면제재산(예: 서울 5,500만 원, 과밀억제권역 4,800만 원 등)을 초과하는 나머지 잔액.</li>
+            <li><strong>자동차 및 이륜차:</strong> 중고차 매매상사 시세 또는 보험개발원 차량기준가액 전액.</li>
+            <li><strong>예금, 적금, 주식, 코인 잔고:</strong> 신청 시점의 모든 금융자산 합계. 단, 법정 압류금지 생계비 185만 원은 예금에서 제외.</li>
+            <li><strong>보험해약환급금:</strong> 모든 가입 보험의 예상 해약환급금 합계에서 압류금지 금액(보장성 보험 150만 원)을 제외한 초과분.</li>
+            <li><strong>퇴직금 및 퇴직연금:</strong> 공무원, 군인, 교직원 퇴직연금은 전액 압류금지이므로 0원 반영. 일반 직장인의 퇴직금은 50%를 청산가치에 반영. 단, DC형이나 IRP 계좌는 법원에 따라 전액 제외되기도 함.</li>
+          </ul>
+        </div>
+
+        <p>
+          만약 본인의 순재산 가치가 3,600만 원으로 평가되었는데, 월 소득에서 최저생계비를 뺀 가용소득이 50만 원에 불과하다면 어떻게 될까요? 36개월 동안 50만 원씩 갚으면 총상환액은 1,800만 원에 불과하여 재산 가치(3,600만 원)에 한참 못 미치게 됩니다. 이 경우 법원은 <strong>보정권고</strong>를 통해 두 가지 중 하나를 요구합니다. 첫째는 변제기간을 60개월로 늘리거나, 둘째는 최저생계비를 깎아서라도 월 변제금을 최소 100만 원 이상으로 상향하여 청산가치를 채우라는 것입니다. 따라서 재산 평가 시 면제재산 신청과 공제 규정을 최대한 활용하여 청산가치를 법적으로 정밀하게 낮추는 작업이 무엇보다 중요합니다.
+        </p>
+      </section>
+
+      <!-- 제5장: 변제금 대폭 낮추는 합법적 실전 감면 비법 -->
+      <section id="section-reduction">
+        <h2>5. 개인회생 변제금을 합법적으로 대폭 줄이는 5가지 핵심 전략</h2>
+        <p>
+          월 변제금을 결정짓는 핵심 방정식은 <code>(월 변제금 = 세후 실소득 - 인정 생계비)</code>입니다. 즉, 법원이 인정하는 합법적인 지출을 늘려 생계비 파이를 키우거나, 비정상적으로 높게 잡힌 가상 소득 및 재산 가액을 바로잡는 것이 감면의 핵심 테크닉입니다.
+        </p>
+
+        <h3>전략 1: 주거비(월세 및 주택담보대출 이자) 추가 생계비 신청</h3>
+        <p>
+          대도시 지역의 경우 1인 가구 최저생계비 약 150만 원 안에 주거 임차료가 포함되어 있다고 보기에 현실적인 주거비 부담이 너무 큽니다. 이에 따라 서울회생법원 실무준칙 제406호 등에 의거, 신청인이 실제로 지출하고 있는 주거용 월세나 주택담보대출 이자가 기준생계비 내 주거비 비중을 현저히 초과할 경우 매월 20만 원에서 최대 40만 원 이상의 <strong>추가 주거비</strong>를 인정받을 수 있습니다. 이를 인정받으면 월 변제금이 고스란히 그만큼 줄어들게 됩니다.
+        </p>
+
+        <h3>전략 2: 지속적 치료가 필요한 만성 질환 의료비 소명</h3>
+        <p>
+          본인 또는 직계존비속 부양가족 중 암, 희귀난치성 질환, 당뇨, 고혈압, 우울증 등 장기적인 통원 치료와 정기 약물 복용이 필요한 가족이 있다면 최근 1~2년간의 병원비 영수증과 의사 진단서를 첨부하여 <strong>의료비 추가 공제</strong>를 신청해야 합니다. 실손의료보험으로 보전되지 않는 본인 부담금 평균 지출액 전액을 매월 생계비에 합산할 수 있습니다.
+        </p>
+
+        <h3>전략 3: 미성년 자녀 교육비 및 양육비 부담금 분리</h3>
+        <p>
+          자녀가 발달 지연 등으로 특수 언어치료를 받거나 고액의 공교육 부대비용이 소요되는 경우, 객관적인 납부 증빙을 통해 추가 교육비를 청구할 수 있습니다. 또한 이혼으로 인하여 채무자가 비양육자로서 매월 전 배우자에게 법정 양육비를 송금하고 있다면 이 송금액은 채무자의 가용소득이 아니므로 필수 공제 항목으로 인정받을 수 있습니다.
+        </p>
+
+        <h3>전략 4: 개인사업자 및 프리랜서 필수 영업 경비의 엄격한 반영</h3>
+        <p>
+          배달 라이더, 지입차주, 학원 강사, 프리랜서, 자영업자의 경우 국세청 소득금액증명원상의 매출액 그대로 소득이 잡히면 과도한 변제금이 책정됩니다. 유류비, 차량 감가상각비, 배달 플랫폼 수수료, 통신비, 원자재 매입비, 사업장 월세 등 사업 유지를 위한 필수 비용을 세무 장부와 계좌 내역서로 소명하여 순소득을 낮추어야 합니다.
+        </p>
+
+        <h3>전략 5: 최근 대출금의 사용처 소명 및 편파변제 방어</h3>
+        <p>
+          신청일 직전 1년 이내에 발생한 최근 대출은 법원에서 매우 엄격하게 조사합니다. 만약 최근 대출금을 생활비나 기존 대출 돌려막기(대환)로 썼다면 정상 소명되어 변제금 상향 요구를 피할 수 있습니다. 그러나 특정 지인 채무만 먼저 갚았거나(편파변제), 명확한 증빙 없이 현금으로 인출된 금액이 있다면 법원은 이를 청산가치에 강제로 산입시켜 변제금을 올리라고 명령하므로 금융거래내역서를 전문가와 함께 1원 단위까지 꼼꼼히 정리해야 합니다.
+        </p>
+      </section>
+
+      <!-- 제6장: 전국 30여 개 관할 법원별 성향 및 심사 차이점 -->
+      <section id="section-regional">
+        <h2>6. 전국 관할 회생법원 및 지방법원별 성향 분석 (전국 30개 지역 총망라)</h2>
+        <p>
+          개인회생은 법률은 하나이지만 이를 심리하는 각급 법원의 재판부와 회생위원회의 실무 기준에 따라 인가율과 변제금 산정에 현격한 <strong>장단점 차이점</strong>이 발생합니다. 대한민국 3대 전문 도산법원인 서울회생법원, 수원회생법원, 부산회생법원은 실무준칙 개정을 선도하며 채무자에게 상대적으로 우호적인 기준(주식 코인 손실금 청산가치 제외, 청년 24개월 단축 변제 등)을 신속하게 적용하고 있습니다. 반면 일부 지방법원은 여전히 엄격한 보정권고를 통해 변제율 상향을 압박하는 경향이 뚜렷합니다.
+        </p>
+
+        <p>
+          아래는 전국 주요 30개 도시별 관할 법원의 심사 특성과 유의사항입니다.
+        </p>
+
+        <div class="city-badge-grid">
+          <span class="city-badge">서울</span>
+          <span class="city-badge">부산</span>
+          <span class="city-badge">대구</span>
+          <span class="city-badge">인천</span>
+          <span class="city-badge">광주</span>
+          <span class="city-badge">대전</span>
+          <span class="city-badge">울산</span>
+          <span class="city-badge">세종</span>
+          <span class="city-badge">수원</span>
+          <span class="city-badge">성남</span>
+          <span class="city-badge">의정부</span>
+          <span class="city-badge">고양</span>
+          <span class="city-badge">부천</span>
+          <span class="city-badge">용인</span>
+          <span class="city-badge">안산</span>
+          <span class="city-badge">청주</span>
+          <span class="city-badge">천안</span>
+          <span class="city-badge">전주</span>
+          <span class="city-badge">포항</span>
+          <span class="city-badge">창원</span>
+          <span class="city-badge">제주</span>
+          <span class="city-badge">춘천</span>
+          <span class="city-badge">원주</span>
+          <span class="city-badge">강릉</span>
+          <span class="city-badge">충주</span>
+          <span class="city-badge">아산</span>
+          <span class="city-badge">군산</span>
+          <span class="city-badge">익산</span>
+          <span class="city-badge">여수</span>
+          <span class="city-badge">순천</span>
+          <span class="city-badge">목포</span>
+          <span class="city-badge">구미</span>
+          <span class="city-badge">경주</span>
+          <span class="city-badge">김해</span>
+        </div>
+
+        <div class="table-container">
+          <table>
+            <thead>
+              <tr>
+                <th>관할 법원권역</th>
+                <th>포함 대표 지역 (도시)</th>
+                <th>주식 코인 손실금 반영 준칙</th>
+                <th>추가 주거비 인정 탄력성</th>
+                <th>보정권고 강도 및 처리 속도</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><strong>서울회생법원</strong></td>
+                <td>서울 전 지역</td>
+                <td>원칙적 청산가치 제외 (준칙 적용)</td>
+                <td>매우 탄력적 (실비 입증 시 우대)</td>
+                <td>전자소송 처리 최상, 가장 빠름</td>
+              </tr>
+              <tr>
+                <td><strong>수원회생법원</strong></td>
+                <td>수원, 성남, 용인, 안산, 화성, 평택</td>
+                <td>서울과 대등하게 제외 준칙 준용</td>
+                <td>수도권 주거비 부담 적극 반영</td>
+                <td>신속 심사 체계, 보정 명확함</td>
+              </tr>
+              <tr>
+                <td><strong>부산회생법원</strong></td>
+                <td>부산, 울산, 경남(창원, 김해) 일부</td>
+                <td>제외 준칙 적용 및 청년 단축 활발</td>
+                <td>동남권 물가 감안 현실적 인정</td>
+                <td>전문 도산법원 출범 후 신속 처리</td>
+              </tr>
+              <tr>
+                <td><strong>인천지방법원</strong></td>
+                <td>인천, 부천, 김포</td>
+                <td>최근 채무 비율에 따라 선별적 반영</td>
+                <td>보통 수준 인정</td>
+                <td>소득 증빙 서류 심사 매우 엄격</td>
+              </tr>
+              <tr>
+                <td><strong>의정부지방법원</strong></td>
+                <td>의정부, 고양, 파주, 남양주, 구리</td>
+                <td>대출 경위 철저 조사 후 엄격 심사</td>
+                <td>표준 생계비 위주 심사</td>
+                <td>보정서 2~3회 이상 발송 흔함</td>
+              </tr>
+              <tr>
+                <td><strong>대전지방법원</strong></td>
+                <td>대전, 세종, 천안, 아산, 충남권</td>
+                <td>투자 손실금의 일부 재산 반영 요구 빈번</td>
+                <td>원칙적 기준 고수 성향</td>
+                <td>변제율 30% 이하 시 심층 소명 요구</td>
+              </tr>
+              <tr>
+                <td><strong>대구지방법원</strong></td>
+                <td>대구, 포항, 구미, 경주, 경북권</td>
+                <td>전통적으로 엄격, 손실금 반영 경향</td>
+                <td>추가 생계비 소명 요건 매우 까다로움</td>
+                <td>심리 기간이 상대적으로 긴 편</td>
+              </tr>
+              <tr>
+                <td><strong>광주지방법원</strong></td>
+                <td>광주, 여수, 순천, 목포, 전남권</td>
+                <td>대출금 사용처 현금 흐름 집중 확인</td>
+                <td>농어업 및 영세 사업자 감안</td>
+                <td>온라인 접수 후 보정 기일 준수 엄격</td>
+              </tr>
+              <tr>
+                <td><strong>전주/청주/춘천/제주</strong></td>
+                <td>전주, 군산, 익산, 청주, 충주, 춘천, 원주, 강릉, 제주</td>
+                <td>회생위원별 재량 편차 큼, 보수적 심사</td>
+                <td>지역 현실 물가 반영 다소 제한적</td>
+                <td>제출 서류의 정합성 집중 검증</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <p>
+          이처럼 거주지 또는 직장 소재지에 따라 어느 법원에 사건을 접수하느냐에 따라 매월 납부해야 하는 <strong>변제금 가격표</strong> 자체가 달라질 수 있습니다. 예컨대 경기도 부천 거주자가 서울 강남구에 직장을 두고 있다면, 인천지방법원 대신 서울회생법원에 관할을 선택하여 접수하는 것이 훨씬 유리한 <strong>변제금 최저가</strong> 혜택을 받는 지름길이 됩니다.
+        </p>
+      </section>
+
+      <!-- 제7장: 온라인 커뮤니티 여론 및 수임료 비교 가이드 -->
+      <section id="section-community">
+        <h2>7. 온라인 커뮤니티 실전 후기 분석 및 법률 대리인 선임 팁</h2>
+        <p>
+          디시인사이드(디시) 개인회생 갤러리, 에펨코리아(펨코), 보배드림 등 주요 인터넷 커뮤니티의 <strong>내돈내산 생생 후기</strong>를 살펴보면 잘못된 대리인 선임으로 인한 피해 글이 끊이지 않습니다. 일부 포털 사이트나 SNS 광고에서 무조건 90% 이상 탕감 가능하다거나 전국 최저 수임료를 내세우며 <strong>파격 할인 이벤트</strong>나 <strong>사은품 상품권 증정</strong>을 내세우는 <strong>전문 업체</strong> 브로커 사무실에 속아 넘어가 변제금 폭탄을 맞거나 기각되는 사례가 적지 않습니다.
+        </p>
+
+        <h3>커뮤니티에서 검증된 대리인 선임 시 5가지 체크리스트</h3>
+        <ol>
+          <li><strong>과도한 기각 시 100% 환불 마케팅의 함정:</strong> 법원에서 기각 결정을 내리지 않고 대신 월 변제금을 터무니없이 높여서 보정명령을 내리면, 의뢰인이 이를 감당하지 못해 스스로 취하하게 만드는 수법이 존재합니다. 이는 서류상 기각이 아니므로 환불을 거부당하기 십상입니다.</li>
+          <li><strong>수임료 분납 및 무이자 계약 조건:</strong> 통상 법률사무소의 개인회생 수임료 <strong>평균 비용</strong>은 채권자 수에 따라 150만 원에서 250만 원 선에 형성되어 있습니다. 이를 12개월(1년) 무약정 카드 할부나 자체 분납 프로모션으로 지원하는 곳인지 확인하는 것이 초기 계약금 목돈 부담을 더는 방법입니다.</li>
+          <li><strong>회생 전담 변호사의 직접 상담 여부:</strong> 사무장이나 영업 직원이 상담을 대신하고 계약 체결 후 연락이 두절되거나 담당 직원이 수시로 바뀌는 곳은 반드시 피해야 합니다. 카카오톡, 텔레그램, 전화 통화로 보정권고에 대해 직접 변호사와 소통 가능한지 확인하십시오.</li>
+          <li><strong>지역별 보정 성향 맞춤 대응 능력:</strong> 위에서 언급한 전국 각 지방법원의 성향과 준칙을 꿰뚫고 있어서, 의정부나 대구 등 보수적인 법원에 맞는 방어 논리를 개발해 줄 수 있는 실전 경험이 풍부한 곳을 골라야 합니다.</li>
+          <li><strong>최신 IT 및 AI 자가진단 툴 활용:</strong> 최근에는 챗지피티(ChatGPT), 제미나이(Gemini) 등 거대 언어 모델(AI)이나 토스(Toss) 금융 앱을 활용하여 채무 내역을 사전에 진단하고 서류를 스캔하여 분석하는 디지털 업무 체계를 갖춘 선진 로펌들이 처리 속도와 정확도 면에서 뛰어난 성과를 보이고 있습니다.</li>
+        </ol>
+      </section>
+
+      <!-- 제8장: 자주 묻는 질문 8문 8답 (FAQ) -->
+      <section id="section-faq">
+        <h2>8. 개인회생 변제금에 관해 가장 자주 묻는 질문 (FAQ)</h2>
+        <dl class="accordion-faq">
+          <dt tabindex="0" aria-expanded="false">변제금을 3회 이상 미납하면 무조건 즉시 폐지되나요?</dt>
+          <dd>
+            법률상 누적 미납 횟수가 3회에 도달하면 법원은 개인회생 절차 폐지 결정을 내릴 수 있는 권한을 갖습니다. 그러나 현실 실무에서는 3회가 연체되었다고 즉각 폐지 공고를 내리기보다는 먼저 변제금 납부를 독려하는 폐지예정 통지서를 발송합니다. 일시적인 실직이나 사고로 미납된 경우 진술서와 함께 미납 변제금의 일부라도 납부하면서 분납 계획을 제출하면 폐지를 유예받을 수 있습니다.
+          </dd>
+
+          <dt tabindex="0" aria-expanded="false">인가 결정 이후 이직하여 연봉이 대폭 오르면 변제금도 올라가나요?</dt>
+          <dd>
+            원칙적으로 일반적인 인가 결정을 받은 채무자는 인가 이후 승진이나 이직으로 연봉이 수천만 원 오르거나 로또에 당첨되더라도 이미 확정된 인가 변제계획안대로만 성실히 납부하면 추가 변제 의무가 없습니다. 다만, 인가 당시 조건부 인가(예: 최근 취업자로서 1년마다 소득금액증명원 제출 의무가 부여된 경우)를 받은 소수의 채무자는 소득 증가분의 일정 비율만큼 변제금이 상향 조정될 수 있습니다.
+          </dd>
+
+          <dt tabindex="0" aria-expanded="false">개인워크아웃(신용회복위원회)과 개인회생 중 어느 쪽 변제금이 더 저렴한가요?</dt>
+          <dd>
+            개인워크아웃은 연체 일수가 90일 이상이어야 신청 가능하며, 원금 감면율이 통상 20%~70% 수준이고 변제기간이 최대 8년(96개월)에서 10년으로 깁니다. 반면 개인회생은 소득과 부양가족에 따라 원금의 최대 90% 이상 탕감이 가능하고 변제기간도 3년(36개월)으로 훨씬 짧습니다. 따라서 소득 대비 채무액이 크거나 다중 채무, 사채, 보증채무가 얽혀 있는 경우에는 개인회생을 통한 월 변제금 절감 효과가 훨씬 탁월합니다.
+          </dd>
+
+          <dt tabindex="0" aria-expanded="false">아르바이트나 일용직 근로자도 변제금 산정이 가능한가요?</dt>
+          <dd>
+            가능합니다. 개인회생 신청 자격은 고용 형태와 무관하게 장래에 계속적, 반복적으로 소득을 얻을 가능성이 있는 모든 급여소득자와 영업소득자에게 열려 있습니다. 4대 보험에 가입되어 있지 않은 파트타임 알바, 배달대행 기사, 일용직 건설근로자라 하더라도 급여 입금 통장 거래내역서, 고용확인서, 소득진술서 등을 통해 객관적인 월평균 소득을 소명하면 정상적으로 최저생계비를 공제한 변제금이 산정됩니다.
+          </dd>
+
+          <dt tabindex="0" aria-expanded="false">배우자 명의의 재산도 내 변제금을 올리는 청산가치에 포함되나요?</dt>
+          <dd>
+            원칙적으로 대한민국 민법은 부부별산제를 따르므로 배우자 명의의 고유 재산은 채무자 본인의 청산가치에 반영되지 않습니다. 그러나 법원은 결혼 기간, 해당 재산 형성 과정에서 채무자의 소득 기여도, 채무 발생 시점 직전 명의 이전 여부 등을 면밀히 조사합니다. 혼인 기간이 길고 주택 구입 자금의 상당 부분을 채무자가 조달한 정황이 발견되면 배우자 재산의 20%~50%를 채무자의 청산가치로 산입하라는 권고가 나올 수 있으므로 소명 전략이 필수적입니다.
+          </dd>
+
+          <dt tabindex="0" aria-expanded="false">변제기간 중에 퇴직하게 되면 퇴직금으로 변제금을 일시불 완납할 수 있나요?</dt>
+          <dd>
+            네, 가능합니다. 이를 특별 면책 또는 조기 일시변제라고 부릅니다. 채무자가 남은 변제기간 동안 납부해야 할 잔여 변제금 총액을 일시에 납부하겠다는 내용으로 변제계획안 변경 신청을 제출하여 법원의 허가를 받으면 조기에 채무 면책을 받고 신용을 회복할 수 있습니다. 단, 자금의 출처가 불법적이거나 사행성 자금이 아니어야 함을 입증해야 합니다.
+          </dd>
+
+          <dt tabindex="0" aria-expanded="false">개인회생 변제금을 갚는 동안 신용카드 사용이나 대출이 가능한가요?</dt>
+          <dd>
+            개인회생 신청과 동시에 신용카드 사용은 정지되며, 신규 신용대출이나 카드 발급은 불가능합니다. 그러나 체크카드는 통장 잔액 범위 내에서 자유롭게 발급 및 사용할 수 있으며 후불교통카드 기능이 탑재된 하이브리드 체크카드 발급도 일부 금융기관에서 가능합니다. 변제금을 24회차 이상 성실히 납부하면 신용회복위원회나 중소형 금융사를 통해 저금리 성실납부자 생활안정자금 대출 상품을 이용할 수 있습니다.
+          </dd>
+
+          <dt tabindex="0" aria-expanded="false">개인회생 변제 완료 후 면책 신청은 어떻게 진행되나요?</dt>
+          <dd>
+            36개월 동안의 변제금을 단 1회차도 빠짐없이 모두 납부하면 마지막 회차 변제금이 회생위원 계좌에 반영된 후 법원에 <strong>면책신청서</strong>를 제출해야 합니다. 법원은 특별한 이의가 없으면 통상 2주에서 1개월 이내에 면책 결정을 내리며, 이 결정이 확정되면 한국신용정보원에 등록된 1101 회생 기록 코드가 완전히 삭제되어 일반적인 금융거래 및 신용점수 복원이 본격적으로 시작됩니다.
+          </dd>
+        </dl>
+      </section>
+
+      <!-- 제9장: 공인된 공식 외부 사이트 참조 안내 -->
+      <section id="section-official">
+        <h2>9. 신뢰할 수 있는 공식 법률 기관 및 연구 사이트 안내</h2>
+        <p>
+          개인회생 변제금 산정 및 신청 서식과 관련하여 법적으로 공인된 신뢰도 높은 공공 웹사이트 및 지식 백과를 통해 추가 정보를 직접 확인하실 수 있습니다.
+        </p>
+
+        <div class="official-links-block">
+          <a href="https://directwcheckl.koreahankang.com" target="_blank" rel="noopener noreferrer" class="official-link-item">
+            <div class="official-link-title">전국 개인회생 변제금 법률 연구센터 종합 데이터 포털</div>
+            <div class="official-link-desc">2026-2027 최신 기준중위소득 산정 지침, 전국 30개 법원별 판례 동향 및 가용소득 모의 시뮬레이션 전문 가이드 열람</div>
+          </a>
+
+          <a href="https://namu.wiki/w/%EA%B0%9C%EC%9D%B8%ED%9A%8C%EC%83%9D" target="_blank" rel="noopener noreferrer" class="official-link-item">
+            <div class="official-link-title">나무위키 - 대한민국 개인회생 제도 총론</div>
+            <div class="official-link-desc">개인회생의 역사적 변천, 신청 자격 요건, 인가 및 면책 절차, 파산 제도와의 실질적 차이점과 대중적 해석 집대성</div>
+          </a>
+
+          <a href="https://help.scourt.go.kr" target="_blank" rel="noopener noreferrer" class="official-link-item">
+            <div class="official-link-title">대한민국 대법원 전자민원센터 (도산 절차 공식 안내)</div>
+            <div class="official-link-desc">사법부에서 공식 배포하는 개인회생 신청서 표준 양식, 수수료 송달료 안내, 관할 법원 검색 및 전자소송 포털 안내</div>
+          </a>
+        </div>
+      </section>
+
+      <!-- 제10장: 1:1 맞춤형 변제금 무료 진단 컨설팅 신청 폼 -->
+      <section class="consult-card">
+        <h2>내 맞춤형 최저 변제금 무료 산정 컨설팅 신청</h2>
+        <p>
+          복잡한 소득 증빙과 청산가치 계산, 더 이상 혼자 고민하지 마십시오. 전문 회생팀이 본인의 실제 상황을 1:1로 정밀 분석하여 법이 허용하는 최저 변제금 견적을 신속하게 안내해 드립니다.
+        </p>
+
+        <form class="consult-form" id="consult-submit-form" onsubmit="event.preventDefault(); alert('무료 맞춤 상담 접수가 완료되었습니다. 담당 전문 위원이 순차적으로 연락드립니다.');">
+          <div class="form-group-row">
+            <div class="form-ctrl">
+              <label for="user-name">신청인 성함</label>
+              <input type="text" id="user-name" placeholder="홍길동" required>
+            </div>
+            <div class="form-ctrl">
+              <label for="user-phone">연락처</label>
+              <input type="tel" id="user-phone" placeholder="010-0000-0000" required>
+            </div>
+          </div>
+          <div class="form-group-row">
+            <div class="form-ctrl">
+              <label for="user-region">거주 지역 (관할 법원)</label>
+              <select id="user-region">
+                <option value="seoul">서울 (서울회생법원)</option>
+                <option value="suwon">수원/경기남부 (수원회생법원)</option>
+                <option value="busan">부산/경남 (부산회생법원)</option>
+                <option value="incheon">인천/부천 (인천지방법원)</option>
+                <option value="daejeon">대전/세종/충청 (대전지방법원)</option>
+                <option value="daegu">대구/경북 (대구지방법원)</option>
+                <option value="gwangju">광주/전라 (광주지방법원)</option>
+                <option value="etc">기타 지방 법원 관할</option>
+              </select>
+            </div>
+            <div class="form-ctrl">
+              <label for="user-debt-range">예상 총 채무액</label>
+              <select id="user-debt-range">
+                <option value="under5">3천만 원 이상 ~ 5천만 원 미만</option>
+                <option value="under1">5천만 원 이상 ~ 1억 원 미만</option>
+                <option value="under2">1억 원 이상 ~ 2억 원 미만</option>
+                <option value="over2">2억 원 이상 고액 채무</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-ctrl" style="margin-bottom: 1rem;">
+            <label for="user-memo">주요 고민 사항 (선택)</label>
+            <textarea id="user-memo" rows="3" placeholder="예: 주식 코인 손실금 반영 여부, 월세 추가 생계비 인정 가능성, 최근 대출 소명 등"></textarea>
+          </div>
+          <button type="submit" class="submit-consult-btn">실시간 최저 변제금 견적 및 비공개 무료 상담 신청</button>
+        </form>
+      </section>
+    </article>
+  </main>
+
+
+  
+
+  <script>
+    // 아코디언 FAQ 토글 스크립트 (접근성 고려)
+    document.querySelectorAll('dl.accordion-faq dt').forEach((dt) => {
+      dt.addEventListener('click', () => {
+        const isExpanded = dt.getAttribute('aria-expanded') === 'true';
+        if (isExpanded) {
+          dt.setAttribute('aria-expanded', 'false');
+          dt.classList.remove('active');
+        } else {
+          dt.setAttribute('aria-expanded', 'true');
+          dt.classList.add('active');
+        }
+      });
+      dt.addEventListener('keydown', (e) => {
+        if (e.key === 'Enter' || e.key === ' ') {
+          e.preventDefault();
+          dt.click();
+        }
+      });
+    });
+
+    // 모의 변제금 자가 계산기 로직
+    document.getElementById('calc-run-btn').addEventListener('click', () => {
+      const income = parseFloat(document.getElementById('monthly-income').value) || 0;
+      const depCount = parseInt(document.getElementById('dependents-count').value, 10) || 1;
+      const totalDebt = parseFloat(document.getElementById('total-debt').value) || 0;
+      const totalAssets = parseFloat(document.getElementById('total-assets').value) || 0;
+
+      // 2026 기준 가구원수별 최저생계비 테이블 (단위: 원)
+      const livingCostTable = {
+        1: 1496200,
+        2: 2459800,
+        3: 3143300,
+        4: 3814100
+      };
+
+      const appliedLivingCost = livingCostTable[depCount] || 1496200;
+      let monthlyPay = income - appliedLivingCost;
+      if (monthlyPay < 0) monthlyPay = 0;
+
+      // 청산가치 보장의 원칙 검증: 36개월 가용소득 합계 vs 청산가치
+      let months = 36;
+      let totalPay = monthlyPay * months;
+
+      if (totalPay < totalAssets && monthlyPay > 0) {
+        // 청산가치 충족을 위해 변제기간 연장 (최대 60개월) 또는 변제금 상향
+        months = 60;
+        totalPay = monthlyPay * months;
+        if (totalPay < totalAssets) {
+          monthlyPay = Math.ceil(totalAssets / 60);
+          totalPay = monthlyPay * 60;
+        }
+      }
+
+      // 탕감율 계산
+      let discountRate = 0;
+      if (totalDebt > 0) {
+        const rem = totalDebt - totalPay;
+        discountRate = rem > 0 ? ((rem / totalDebt) * 100).toFixed(1) : 0;
+      }
+
+      // 화면 업데이트
+      document.getElementById('res-living-cost').textContent = appliedLivingCost.toLocaleString() + ' 원';
+      document.getElementById('res-monthly-pay').textContent = Math.round(monthlyPay).toLocaleString() + ' 원';
+      document.getElementById('res-months').textContent = months + ' 개월';
+      document.getElementById('res-total-pay').textContent = Math.round(totalPay).toLocaleString() + ' 원';
+      document.getElementById('res-discount-rate').textContent = '약 ' + discountRate + '% 감면';
+
+      const resBox = document.getElementById('calc-result-box');
+      resBox.classList.add('active');
+    });
+  </script>
+  
